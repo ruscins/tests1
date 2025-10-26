@@ -1,0 +1,63 @@
+# AutoSkola Video Reklāmas Konfigurācija
+
+video:
+  width: 1920
+  height: 1080
+  fps: 30
+  duration: 20  # sekundes
+  background_color: [30, 30, 40]  # RGB
+
+scenes:
+  scene1:
+    duration: 5
+    background_color: [70, 80, 90]
+    text: "Ārā līst lietus? 🌧️"
+    text_color: [255, 255, 255]
+    text_size: 80
+    animation: "fade_in"
+    
+  scene2:
+    duration: 5
+    background_color: [50, 60, 70]
+    text: "Mēs zinām risinājumu!"
+    subtext: "Kā nokļūt darbā ar sausām kājām"
+    text_color: [255, 255, 255]
+    text_size: 70
+    animation: "slide_up"
+    
+  scene3:
+    duration: 7
+    background_color: [40, 120, 200]
+    text: "🚗 B kategorija"
+    subtext: "Tavs ceļš uz brīvību"
+    text_color: [255, 255, 255]
+    text_size: 90
+    animation: "zoom_in"
+    
+  scene4:
+    duration: 3
+    background_color: [30, 30, 40]
+    text: "📞 Sāc šodien ar autoSkaila"
+    text_color: [255, 200, 50]
+    text_size: 60
+    animation: "fade_in"
+
+styles:
+  modern:
+    font_family: "Arial-Bold"
+    corner_radius: 20
+    shadow: true
+    
+  classic:
+    font_family: "Times-New-Roman"
+    corner_radius: 0
+    shadow: false
+    
+  minimal:
+    font_family: "Helvetica"
+    corner_radius: 10
+    shadow: false
+
+audio:
+  background_music: "assets/audio/background.mp3"
+  volume: 0.3  # 30% skaļums
